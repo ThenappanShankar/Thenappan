@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47107" started-at="2019-02-11T01:21:08Z" finished-at="2019-02-11T01:21:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13260" started-at="2019-02-11T01:21:08Z" finished-at="2019-02-11T01:21:21Z">
+      <class name="Automation.ValidaNavigation">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Automation.ValidaNavigation@3e6fa38a]" name="Initialize" is-config="true" duration-ms="10868" started-at="2019-02-11T01:21:08Z" finished-at="2019-02-11T01:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Automation.ValidaNavigation@3e6fa38a]" name="basePageNavigation" duration-ms="49" started-at="2019-02-11T01:21:19Z" finished-at="2019-02-11T01:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Automation.ValidaNavigation@3e6fa38a]" name="teardown" is-config="true" duration-ms="2321" started-at="2019-02-11T01:21:19Z" finished-at="2019-02-11T01:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Automation.ValidaNavigation -->
+    </test> <!-- Test -->
+    <test name="Validate title" duration-ms="13166" started-at="2019-02-11T01:21:21Z" finished-at="2019-02-11T01:21:34Z">
+      <class name="Automation.Validatetitle">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Automation.Validatetitle@31ef45e3]" name="Initialize" is-config="true" duration-ms="10804" started-at="2019-02-11T01:21:21Z" finished-at="2019-02-11T01:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Automation.Validatetitle@31ef45e3]" name="basePageNavigation" duration-ms="39" started-at="2019-02-11T01:21:32Z" finished-at="2019-02-11T01:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Automation.Validatetitle@31ef45e3]" name="teardown" is-config="true" duration-ms="2319" started-at="2019-02-11T01:21:32Z" finished-at="2019-02-11T01:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Automation.Validatetitle -->
+    </test> <!-- Validate title -->
+    <test name="Application testing" duration-ms="1" started-at="2019-02-11T01:21:35Z" finished-at="2019-02-11T01:21:35Z">
+    </test> <!-- Application testing -->
+    <test name="homepage navogate" duration-ms="20532" started-at="2019-02-11T01:21:35Z" finished-at="2019-02-11T01:21:55Z">
+      <class name="Automation.HomePage">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Automation.HomePage@5db45159]" name="Initialize" is-config="true" duration-ms="2160" started-at="2019-02-11T01:21:35Z" finished-at="2019-02-11T01:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Automation.HomePage@5db45159]" name="basePageNavigation" duration-ms="12648" started-at="2019-02-11T01:21:37Z" data-provider="getData" finished-at="2019-02-11T01:21:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thenulakhs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my first data provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Automation.HomePage@5db45159]" name="basePageNavigation" duration-ms="3407" started-at="2019-02-11T01:21:49Z" data-provider="getData" finished-at="2019-02-11T01:21:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari0837@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my second data provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Automation.HomePage@5db45159]" name="teardown" is-config="true" duration-ms="2312" started-at="2019-02-11T01:21:53Z" finished-at="2019-02-11T01:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Automation.HomePage -->
+    </test> <!-- homepage navogate -->
+  </suite> <!-- Suite -->
+</testng-results>
